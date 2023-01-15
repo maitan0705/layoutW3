@@ -78,7 +78,10 @@ body {
     background-attachment: fixed;
     min-height: 700px;
 }
-
+.banner__logo a{
+    color: #fff;
+    font-weight: 700;
+}
 .banner__nav {
     padding: 40px 0 20px;
 }
@@ -161,5 +164,38 @@ body {
 .banner__menu.active{
     display: block;
 }
-
-
+ .banner__title{
+    max-width: 600px;
+    text-align: left;
+    margin-top:100px;
+ }
+ .banner__title h1{
+    font-size: 58px;
+    font-weight: 5000;
+    margin-bottom: 20px;
+    color: #fff;
+ }
+ .banner__title p{
+    font-size: 16px;
+    letter-spacing: .8px;
+    line-height: 1.6;
+    color: #fff;
+ }
+.banner__title a{
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: var(--border-radius);
+    border: 2px  solid #fff;
+    background: transparent;
+    color: #fff;
+    transition: all .5s;
+}
+.banner__title i{
+    padding-left: 7px;
+}
+.banner__title a:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+}
