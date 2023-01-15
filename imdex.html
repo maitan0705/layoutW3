@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font  -->
+    <link href="//fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <header class="banner">
+        <div class="container">
+            <div class="banner__nav">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="banner__logo">
+                        <h1>
+                            <a href="./imdex.html"> Dicer</a>
+                        </h1>
+                    </div>
+                    <div class="banner__right d-flex">
+                        <div class="banner__search position-relative">
+                            <form>
+                                <input type="search" class="search__input" placeholder="Search here..." aria-label="Search">
+                            </form>
+                            <span class="fa fa-search search__icon position-absolute"></span>
+                        </div>
+                        <div class="light__dark fs-3 text-white p-2 mx-4" id="icon">
+                           <i class="fa-regular fa-sun"></i>
+                        </div>
+                        <div class="nav-btn text-center">
+                            <button type="button"><i class="fa fa-bars" ></i></button>  
+                        </div>
+                    </div>
+                    <div class="banner__menu">
+                        <div class="logo__times nav-btn">
+                            <i class="fa fa-times"></i>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">404</a></li>
+                                <li><a href="#">Landing Page</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Shot Codes</a></li>
+                                <li><a href="#">Email</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </nav>
+                <div class="banner__title">
+                    <h1>The Only Thing We Love More Than Food Is You!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.Ea ipsum sed consequuntur illum facere.</p>
+                    <button class="titlt-btn"> <a href="#">Read More</a> <i class="fa fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- toggle switch for light and dark theme -->
+    <!-- <div class="w3_menu text-center">
+        <div class="mobile-position">
+          <nav class="navigation">
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox">
+                <div class="mode-container">
+                  <i class="gg-sun"></i>
+                  <i class="gg-moon"></i>
+                </div>
+              </label>
+            </div>
+          </nav>
+        </div> -->
+        <!-- //toggle switch for light and dark theme -->
+        
+      </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- light and dark  -->
+    <!-- <script>const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+        const currentTheme = localStorage.getItem('theme');
+        
+        if (currentTheme) {
+            document.documentElement.setAttribute('data-theme', currentTheme);
+          
+            if (currentTheme === 'dark') {
+                toggleSwitch.checked = true;
+            }
+        }
+        
+        function switchTheme(e) {
+            if (e.target.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            }
+            else {        document.documentElement.setAttribute('data-theme', 'light');
+                  localStorage.setItem('theme', 'light');
+            }    
+        }
+        
+        toggleSwitch.addEventListener('change', switchTheme, false);</script> -->
+    <script>
+        var icon = document.getElementById('icon'); 
+        icon.onclick = function() {
+            document.body.classList.toggle("dark");  
+        }
+    </script>
+     <script type="text/javascript">
+        $(".light__dark").click(function () {
+            $(this).toggleClass("active");
+            $(".light__dark i").toggleClass("fa fa-moon");
+           
+
+        });
+    </script>
+     <script type="text/javascript">
+        $(".nav-btn").click(function () {
+            $(this).toggleClass("active");
+            $(".banner__menu").toggleClass("active");
+          
+        });
+    </script>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
