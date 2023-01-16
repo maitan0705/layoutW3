@@ -72,24 +72,15 @@
             </div>
         </div>
     </header>
-    <!-- toggle switch for light and dark theme -->
-    <!-- <div class="w3_menu text-center">
-        <div class="mobile-position">
-          <nav class="navigation">
-            <div class="theme-switch-wrapper">
-              <label class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox">
-                <div class="mode-container">
-                  <i class="gg-sun"></i>
-                  <i class="gg-moon"></i>
-                </div>
-              </label>
-            </div>
-          </nav>
-        </div> -->
-        <!-- //toggle switch for light and dark theme -->
-        
-      </div>
+   <ssection class="about">
+    <div class="container">
+        <div class="title">
+            <p>About</p>
+            <h3>We found our creative space that is open for you.</h3>
+        </div>
+
+    </div>
+   </ssection>
 
 
 
@@ -108,28 +99,6 @@
 
 
     <!-- light and dark  -->
-    <!-- <script>const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-        const currentTheme = localStorage.getItem('theme');
-        
-        if (currentTheme) {
-            document.documentElement.setAttribute('data-theme', currentTheme);
-          
-            if (currentTheme === 'dark') {
-                toggleSwitch.checked = true;
-            }
-        }
-        
-        function switchTheme(e) {
-            if (e.target.checked) {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                localStorage.setItem('theme', 'dark');
-            }
-            else {        document.documentElement.setAttribute('data-theme', 'light');
-                  localStorage.setItem('theme', 'light');
-            }    
-        }
-        
-        toggleSwitch.addEventListener('change', switchTheme, false);</script> -->
     <script>
         var icon = document.getElementById('icon'); 
         icon.onclick = function() {
@@ -140,7 +109,6 @@
         $(".light__dark").click(function () {
             $(this).toggleClass("active");
             $(".light__dark i").toggleClass("fa fa-moon");
-           
 
         });
     </script>
