@@ -78,10 +78,14 @@ body {
     background-attachment: fixed;
     min-height: 700px;
 }
+<<<<<<< HEAD
 .banner__logo a{
     color: #fff;
     font-weight: 700;
 }
+=======
+
+>>>>>>> 12cc89c1e0644cca744df1b2656f901eef77d2d2
 .banner__nav {
     padding: 40px 0 20px;
 }
@@ -164,6 +168,7 @@ body {
 .banner__menu.active{
     display: block;
 }
+<<<<<<< HEAD
  .banner__title{
     max-width: 600px;
     text-align: left;
@@ -199,3 +204,7 @@ body {
     background-color: #fff;
     color: var(--primary-color);
 }
+=======
+
+
+>>>>>>> 12cc89c1e0644cca744df1b2656f901eef77d2d2
