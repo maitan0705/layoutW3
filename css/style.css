@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+ 
 
 :root {
     --primary-color: #ff6600;
@@ -53,11 +53,19 @@ a {
     text-decoration: none;
     color: #fff;
 }
+p{
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--text-color);
+    font-family: 'Quicksand', sans-serif;
+}
 
-html,
-body {
-    font-family: sans-serif;
-    line-height: 1.15;
+body, html {
+    margin: 0;
+    padding: 0;
+    background: var(--bg-color);
+    color: var(--font-color);
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -71,6 +79,24 @@ body {
     }
 }
 
+.title p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+    font-family: 'Pacifico', cursive;
+}
+.title h3 {
+    margin: 0;
+    padding: 0;
+    color: var(--heading-color);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
 .banner {
     background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(/imges/banner1.jpg);
     background-size: cover;
@@ -78,14 +104,10 @@ body {
     background-attachment: fixed;
     min-height: 700px;
 }
-<<<<<<< HEAD
 .banner__logo a{
     color: #fff;
     font-weight: 700;
 }
-=======
-
->>>>>>> 12cc89c1e0644cca744df1b2656f901eef77d2d2
 .banner__nav {
     padding: 40px 0 20px;
 }
@@ -168,7 +190,6 @@ body {
 .banner__menu.active{
     display: block;
 }
-<<<<<<< HEAD
  .banner__title{
     max-width: 600px;
     text-align: left;
@@ -204,7 +225,7 @@ body {
     background-color: #fff;
     color: var(--primary-color);
 }
-=======
 
-
->>>>>>> 12cc89c1e0644cca744df1b2656f901eef77d2d2
+.about{
+    margin-top: 30px !important;
+}
