@@ -1,6 +1,3 @@
-
- 
-
 :root {
     --primary-color: #ff6600;
     --secondary-color: #ffc600;
@@ -24,6 +21,7 @@
     --card-bg: #fff;
 
 }
+
 body.dark {
     --primary-color: #ff6600;
     --secondary-color: #ffc600;
@@ -51,16 +49,21 @@ body.dark {
 
 a {
     text-decoration: none;
-    color: #fff;
+    display: block;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
 }
-p{
-    font-size: 18px;
+
+p {
+    font-size: 20px;
     line-height: 28px;
     color: var(--text-color);
     font-family: 'Quicksand', sans-serif;
 }
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     background: var(--bg-color);
@@ -79,7 +82,7 @@ body, html {
     }
 }
 
-.title p{
+.title p {
     font-size: 25px;
     font-weight: 400;
     line-height: 30px;
@@ -87,6 +90,7 @@ body, html {
     color: var(--primary-color);
     font-family: 'Pacifico', cursive;
 }
+
 .title h3 {
     margin: 0;
     padding: 0;
@@ -104,10 +108,12 @@ body, html {
     background-attachment: fixed;
     min-height: 700px;
 }
-.banner__logo a{
+
+.banner__logo a {
     color: #fff;
     font-weight: 700;
 }
+
 .banner__nav {
     padding: 40px 0 20px;
 }
@@ -133,11 +139,13 @@ body, html {
     cursor: pointer;
     color: #c1d0d9;
 }
-.nav-btn{
+
+.nav-btn {
     text-align: center !important;
-   
+
 }
-.nav-btn button{
+
+.nav-btn button {
     font-size: 30px;
     margin-top: 5px;
     outline: none;
@@ -145,12 +153,13 @@ body, html {
     background: none;
     color: white;
 }
-.light__dark:checked{
+
+.light__dark:checked {
     opacity: 0;
 }
 
 .banner__menu {
-   position: fixed;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
@@ -158,18 +167,21 @@ body, html {
     background: rgb(6 3 0 / 77%);
     display: none;
 }
-.banner__menu nav{
+
+.banner__menu nav {
     text-align: center;
-   position: relative;
+    position: relative;
     top: 20%;
     font-size: 20px;
     font-weight: 500;
 }
+
 .banner__menu nav li {
     padding: 15px 40px;
-   
+
 }
-.logo__times{
+
+.logo__times {
     display: inline;
     padding: 10px 13px;
     position: absolute;
@@ -180,68 +192,82 @@ body, html {
     border-radius: var(--border-radius);
     cursor: pointer;
 }
-.banner__menu nav li a{
+
+.banner__menu nav li a {
     transition: all 0.2s;
-     cursor: pointer;
+    cursor: pointer;
 }
-.banner__menu nav li a:hover{
+
+.banner__menu nav li a:hover {
     color: var(--primary-color);
 }
-.banner__menu.active{
+
+.banner__menu.active {
     display: block;
 }
- .banner__title{
+
+.banner__title {
     max-width: 600px;
     text-align: left;
-    margin-top:100px;
- }
- .banner__title h1{
+    margin-top: 100px;
+}
+
+.banner__title h1 {
     font-size: 58px;
     font-weight: 5000;
     margin-bottom: 20px;
     color: #fff;
- }
- .banner__title p{
+}
+
+.banner__title p {
     font-size: 16px;
     letter-spacing: .8px;
     line-height: 1.6;
     color: #fff;
- }
-.banner__title a{
+}
+
+.btn-buttons {
     display: inline-block;
     font-weight: 700;
+    font-size: 17px;
+    line-height: 30px;
     margin-top: 30px;
-    padding: 15px 40px;
+    padding: 13px 45px;
     border-radius: var(--border-radius);
-    border: 2px  solid #fff;
+    border: 3px solid #fff;
     background: transparent;
     color: #fff;
     transition: all .5s;
 }
-.banner__title i{
+
+.banner__title i {
     padding-left: 7px;
 }
-.banner__title a:hover{
+
+.btn-buttons:hover {
     background-color: #fff;
     color: var(--primary-color);
 }
 
-.py-5{
+.py-5 {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
 }
-.about__text{
+
+.about__text {
     padding-left: 50px !important;
 }
-.about__text p{
+
+.about__text p {
     font-size: 18px;
     line-height: 28px;
 }
 
-.w3l__blog{
+.w3l__blog {
     background-color: var(--primary-color);
 }
-.blog__imge{
+
+.blog__imge {
     background-image: url(../imges/banner3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,22 +276,24 @@ body, html {
     z-index: 1;
     min-height: 600px;
 }
-.blog__imge::before{
-   content: "";
+
+.blog__imge::before {
+    content: "";
     background: rgb(16 15 19 / 46%);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     min-height: 100%;
-   z-index: -1;
+    z-index: -1;
 }
 
-.blog__text{
+.blog__text {
     background-color: var(--primary-color);
     color: #fff;
     padding-left: 80px !important;
 }
+
 .blog__text h6 {
     font-size: 20px;
     font-weight: 400;
@@ -273,24 +301,28 @@ body, html {
     letter-spacing: 1px;
     font-family: 'Pacifico', cursive;
 }
-.blog__text h3{
+
+.blog__text h3 {
     font-size: 40px;
     font-weight: 600;
     color: #000;
 }
-.blog__text p{
+
+.blog__text p {
     margin: 30px 0;
     font-size: 21px;
     color: #fff;
     font-weight: 300;
 }
-.blog__text a{
+
+.blog__text a {
     display: block;
     color: #000;
     font-size: 24px;
     font-weight: 600;
 }
-.blog__text span{
+
+.blog__text span {
     width: 70px;
     height: 70px;
     text-align: center;
@@ -302,7 +334,8 @@ body, html {
     border-radius: var(--border-radius);
     transition: 0.3s ease-in-out;
 }
-.w3l-icon:hover span{
+
+.w3l-icon:hover span {
     color: var(--secondary-color);
     transition: 0.3s ease-in-out;
 }
@@ -310,38 +343,44 @@ body, html {
 
 
 /* .categories */
-.categories{
+.categories {
     background: var(--bg-grey);
 }
-.categories-imges{
+
+.categories-imges {
     position: relative;
 }
+
 .categories-imges img {
     width: 100%;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
     transition: all 0.4s;
 }
+
 .categories-imges img:hover {
     opacity: 0.85;
 }
-.categories-info{
+
+.categories-info {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 90%;
-    transform: translateY( 10%);
+    transform: translateY(10%);
     z-index: 1;
 }
-.categories-imges::after{
+
+.categories-imges::after {
     content: " ";
     left: 0;
     bottom: 0;
     width: 100%;
     height: 40%;
     position: absolute;
-    background:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.53) 69%, rgba(0, 0, 0, 0.76) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.53) 69%, rgba(0, 0, 0, 0.76) 100%);
 }
+
 .categories-info span {
     display: block;
     font-size: 20px;
@@ -351,10 +390,100 @@ body, html {
     color: var(--secondary-color);
     opacity: 0.9;
 }
-.categories-info p{
+
+.categories-info p {
     margin-bottom: 15px;
     color: #fff;
     font-size: 25px;
     line-height: 30px;
     font-weight: 700;
+}
+
+
+/* .features */
+.features-wrap {
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+    background-color: var(--bg-color);
+    position: relative;
+    border: 1px solid var(--border-color-light);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 30px;
+}
+
+.features-grid .icon {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--primary-color);
+    background: var(--bg-light);
+    line-height: 80px;
+    border-radius: var(--border-radius);
+    transition: 0.3s ease-in-out;
+}
+
+.features-wrap:hover .icon {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.features-grid .info a {
+    font-weight: 24px;
+    margin-top: 10px;
+    color: var(--heading-color);
+}
+
+.features-grid .info p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.info a:hover {
+    color: var(--primary-color);
+}
+
+.described {
+    background-image: url(../imges/banner2.jpg);
+    position: relative;
+    background-position: center;
+    z-index: 1;
+}
+.described::before{
+    content: "";
+    background: rgb(16 15 19 / 66%);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.described-content{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.described-content h3{
+    font-size: 48px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #fff;
+    max-width: 800px;
+}
+
+.described-buttons .btn-buttons:last-child{
+    margin-left: 30px;
+    color: #fff;
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.described-buttons .btn-buttons:hover:last-child{
+    opacity: 0.7;
 }
