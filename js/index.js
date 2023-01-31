@@ -48,7 +48,6 @@ statistics.each(function(index) {
           
               fixedContentPos: false,
               fixedBgPos: true,
-          
               overflowY: "auto",
           
               closeBtnInside: true,
@@ -56,7 +55,7 @@ statistics.each(function(index) {
           
               midClick: true,
               removalDelay: 300,
-              mainClass: "my-mfp-zoom-in"
+            
             });
           });
-          
+       
